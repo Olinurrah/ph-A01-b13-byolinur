@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100vw;
-    max-width: 1600px;
+    /* width: 100vw; */
+    /* max-width: 1600px; */
     /* border: 1px solid rgb(202, 106, 106); */
 }
 .google-font-inter{
@@ -12,76 +12,63 @@
   
 }
 
-/* header{
-    background-color: aliceblue;
-    width: 100vw;
-    max-width: 1600px;
+/* nav */
+#nav-contain{
+    width: 1600px;
     height: 92px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#nav-contain .logo img{
+    width: 139px;
+    height: 60px;
+    margin-left: 120px;
 
+
+}
+
+#nav-contain nav ul{
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0 120px;
-    align-items: center;
-    gap: 346px;
-}
+    gap: 32px;
 
-header .logo img{
-    width: 139px;
-    height: 60px;
-}
 
-nav ul{
-    display: flex;
-    margin: 34px auto;
+}
+#nav-contain nav ul li ,a{
     list-style: none;
-    
-
-
-
-
-}
-nav ul a{
     text-decoration: none;
-    margin-left: 
-} */
-
-#top-navigation{
-    background-color: aliceblue;
-    max-width: 1600px;
-    width: 100vw;
-    height: 92px;
-
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    margin: 16px 120px;
-    gap: 340px;
+    color: #000000;
 }
-
-#top-navigation .logo img{
-    width: 139px;
-    height: 60px;
-}
-#top-navigation nav{
-    width: 365px;
-    height: 24px;
+#nav-contain nav ul a:hover{
     
-}
-#top-navigation nav ul{
-    display: flex;
-    list-style: none;
-    /* margin-right: 32px; */
+    text-decoration: underline 2px solid  #469165;
+    color: #000000;
 
 }
-#top-navigation li a{
-    text-decoration: none;
-}
-#top-navigation button btn1{
+
+#nav-contain button{
     width: 164px;
     height: 44px;
-}
+    margin-right: 120px;
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
 
+}
+#nav-contain button:hover{
+    
+    
+    background-color: #FFFFFF;
+    color: #469165;
+    border: 1px solid #469165;
+   
+
+}
 
 
 /* header */
