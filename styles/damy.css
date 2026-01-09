@@ -1,0 +1,97 @@
+
+.note-card-container{
+    width: 1360px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 1px solid red;
+    margin-top: 50px 120px 50px 120px;
+   
+}
+
+.note-card-container .note-card-info{
+    
+    /* width: 322px;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 50px 0 #0000006b; */
+}
+
+.note-card-container .note-card-info .icon{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+     border-radius: 50%;
+    /* margin: 70px 131px 170px 131px;  */
+}
+
+ /*
+.note-card-container .note-card-info .icon{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 70px 131px 170px 131px;
+    
+}
+.note-card-container .note-card-info .icon img{
+    width: 27px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+
+    
+   
+}
+.note-card-container .note-card-info h3{
+    color: #001931;
+    margin: 145px 24px 125px 24px;
+   
+}
+.note-card-container .note-card-info p{
+    color: #627382;
+    margin: 205px 24px 55px 24px;
+   
+} */
+
+#skills {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+#skills .skills-box{
+    display: flex;
+    gap: 24px;
+    /* border: 1px solid red; */
+}
+
+.skills-box .skills-card{
+    padding: 30px;
+    max-width: 267px;
+    /* border: 1px solid red; */
+
+    box-shadow: 0 6px 50px 0 #0000006b;
+
+}
+.skills-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+
+}
+
+.skills-card h3{
+    font-size: 30px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.skills-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+
+}
