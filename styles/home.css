@@ -11,6 +11,9 @@
   font-optical-sizing: auto;
   
 }
+button{
+    transition: 0.3ms;
+}
 
 /* nav */
 #nav-contain{
@@ -101,17 +104,21 @@
     width: 229px;
     height: 35px;
     color: #30B868;
-   
     border: none;
-    border-radius: 8px;
+    border-radius: 18px;
 
     font-size: 16px;
     font-weight: 500;
-
     margin-bottom:10px ;
     
-
-
+}
+#banner .banner-text-container .btn2:hover{
+    
+    color: #ffffff;
+    background-color: #62738200;
+    border: 1px solid #30B868;
+    
+    
 }
 
 #banner .banner-text-container h1{
@@ -153,6 +160,15 @@
     border: none;
 
 }
+#banner .btn-container .banner-btn2:hover{
+   
+     color: #ffffff;
+    background-color: #62738200;
+    border: 1px solid #30B868;
+    
+
+}
+
 
 #banner .btn-container .banner-btn3{
     width: 198px;
@@ -161,6 +177,14 @@
     background: #4691650c;
     
     border: 1px solid white;
+}
+#banner .btn-container .banner-btn3:hover{
+   
+     color: #ffffff;
+    background-color: #30B868;
+    /* border: 1px solid #30B868; */
+    
+
 }
 
 
@@ -310,3 +334,82 @@
 #Brain-solution-container .brain-info-check-text-container .check-info{
     color:#001931; 
 }
+
+
+/* brain-think-container */
+
+#brain-think-container{
+    width: 1360px;
+    height: 384px;
+    background-color: #F7F6F2;
+    margin: 2px 120px 120px 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#brain-think-container .brain-text-heading{
+    width: 1280px;
+    height: 112px;
+    margin: 80px 40px 192px 40px;
+    
+
+    
+
+ }
+ #brain-think-container .brain-text-heading h2{
+    
+    margin-bottom: 16px;
+
+    color: #001931 #627382;
+    font-size: 40px;
+    font-weight: bold;
+
+ }
+ #brain-think-container .brain-text-heading p{
+    
+    margin-bottom: 24px;
+
+    color:  #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+ }
+ #brain-think-container .btn-heading{
+    margin-top: -160px;
+   
+   /* margin: 24px 543px 16px 543px; */
+
+ }
+ #brain-think-container .brain-btn5{
+    
+   width: 194px;
+   height: 52px;
+   background-color: #30B868;
+   color: #FFFFFF;
+   border: none;
+   border-radius: 5px;
+   /* margin: 24px 543px 16px 543px; */
+
+ }
+ #brain-think-container .brain-btn5:hover{
+    
+ 
+   /* background-color: #30B868; */
+   color:  #30B868;
+   border: 1px solid #30B868;
+   background-color: #F7F6F2;;
+   
+ }
+ 
+  #brain-think-container .btn-heading p{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #627382;
+   
+   /* margin: 24px 543px 16px 543px; */
+
+ }
