@@ -190,50 +190,96 @@ button{
 
 /* brain-note-container */
 #brain-note{
-    width: 71%;
+    /* border: 1px solid red; */
+    /* width: 71%; */
     max-width: 1600px;
+    height: 448px;
     margin: 0 auto;
 }
 #brain-note .brain-note-container{
+    /* border: 1px solid red; */
+    max-width: 1600px;
+    height: 448px;
+
     display: flex;
     flex-direction: column;
+    margin: 0 120px;
+
+
+
 }
 
-#brain-note-container .note-heading-container{
-    width: 1360px;
-    height: 152px;
-    margin: auto 120px;
-    /* background-color: antiquewhite; */
+#brain-note .note-heading{
+   
     text-align: center;
 
 }
 
-#brain-note-container .note-heading-container h1{
+#brain-note .note-heading h1{
     font-size: 48px;
     font-weight: 700;
     color: #001931;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 30px;
 
 
 }
-#brain-note-container .note-heading-container p{
+#brain-note .note-heading p{
     font-size: 16px;
     font-weight: 400;
     color:#627382 ;
     text-align: center;
-    margin-top: 24px;
+    margin-bottom: 20px;
 
 
 }
-#brain-note-container .note-card-container{
+
+
+#brain-note .brain-note-container .note-card-container{
+    width: 1360px;
+    height: 300px;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    margin: 0 auto;
-    /* margin-left: 120px;
-    align-items: center; */
+    gap: 22px;
+    margin: 0 auto; 
+    
+    
+   
 }
+#brain-note .brain-note-container .note-card-container .card-info{
+    width: 322px;
+    height: 300px;
+    position: relative;
+    border: 1px solid #627382;
+}
+#brain-note .brain-note-container .note-card-container  .icon{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #F95555;
+    margin: 50px 131px 20px 131px;
+}
+#brain-note .brain-note-container .note-card-container .card-info .icon img{
+    margin: auto;
+    
+}
+#brain-note .brain-note-container .note-card-container .card-info h3{
+    position: absolute;
+    margin: 145px 24px 128px 30px;
+    text-align: center;
+    
+}
+#brain-note .brain-note-container .note-card-container .card-info p{
+    position: absolute;
+    margin: 190px 24px 89px 24px;
+    text-align: center;
+    
+}
+
+
+
 #brain-note-container .note-card-info{
     width: 322px;
     height: 300px;
